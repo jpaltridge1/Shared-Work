@@ -30,9 +30,10 @@ namespace CorePortfolio5_JeffPaltridge
 
                Input:    menu choice, pick numbers,  		
 
-               Process(es):    	
+               Process(es): random, write/read, arrays, for loops ,while loops, methods,  foreach, if/else, switch, sort	
 
-               Output:     		
+               Output:    displayed a menu, unique numbers for player max and extra, display unique draw numbers max and extra, display get numbers for self choose,
+                          diplay matched winning numbers for lotto max and extra  
 
                Author:           	Jeff Paltridge
                Last modified:    	2020.03.31
@@ -247,6 +248,7 @@ namespace CorePortfolio5_JeffPaltridge
             int[] DrawNumbers = new int[7];
             String lottoMaxPrizePayout;
             string lottoExtraPrizePayout;
+            string lottoExtraMatch = "";
             int extraDrawNumbers = 0;
 
             DrawNumbers = Number_Generator();
@@ -266,6 +268,8 @@ namespace CorePortfolio5_JeffPaltridge
             lottoMaxPrizePayout = LottoMax_Prize_Payout(winningCount);
             Console.WriteLine($"Your Lotto Max Prize: {lottoMaxPrizePayout}");
             extraWinningCount = Extra_Winning_Total(extraDrawNumbers, playerExtraNumber);
+            lottoExtraMatch = Extra_Match_Display(extraWinningCount);
+            Console.WriteLine($"Your lotto EXTRA Match: {lottoExtraMatch}");
             lottoExtraPrizePayout = Extra_Prize_Payout(extraWinningCount);
             Console.WriteLine($"Your Lotto EXTRA Prize: {lottoExtraPrizePayout}");
 
@@ -481,6 +485,50 @@ namespace CorePortfolio5_JeffPaltridge
             return extraPrize;
         }
 
+        static string Extra_Match_Display(int extraWinningCount)
+        {
+            string extraMatchString = null;
+
+            if (extraWinningCount == 1)
+            {
+                extraMatchString = "Last Digit";
+            }
+            else if (extraWinningCount == 2)
+            {
+                extraMatchString = "Last 2 Digits";
+            }
+
+            else if (extraWinningCount == 3)
+            {
+                extraMatchString = "Last 3 Digits";
+            }
+
+            else if (extraWinningCount == 4)
+            {
+                extraMatchString = "Last 4 Digits";
+            }
+
+            else if (extraWinningCount == 5)
+            {
+                extraMatchString = "Last 5 Digits";
+            }
+            else if (extraWinningCount == 6)
+            {
+                extraMatchString = "Last 6 Digits";
+            }
+
+            else if (extraWinningCount == 7)
+            {
+                extraMatchString = "All the Digits";
+            }
+
+            else
+            {
+                extraMatchString = "0 Digits";
+            }
+
+            return extraMatchString;
+        }
 
         static void New_Random_Numbers()// generates and sorts an array of 7 random numbers
         {
