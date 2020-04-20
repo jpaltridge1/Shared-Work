@@ -70,7 +70,7 @@ namespace AdvancedPortfolio03A
 
             while (validFlag == false)
             {
-                Console.WriteLine("Please enter your answer (T or F):\t");
+                Console.Write("Please enter your answer (T or F): ");
                 playerEntry = Console.ReadLine();
 
                 switch (playerEntry.ToUpper())
@@ -105,7 +105,7 @@ namespace AdvancedPortfolio03A
         {
             bool questionAnswered = false;
 
-            if (playerEntry == answer)
+            if (playerEntry.ToUpper() == answer.ToUpper())
             {
                 questionAnswered = true;
             }
@@ -116,7 +116,7 @@ namespace AdvancedPortfolio03A
         static void ReadandLoadTrivia(List<Trivia> filmTrivia)
         /* Read in the CSV and create a list from the info, populate filmTrivia list instance */
         {
-            string Full_Path_File_Name = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\GitHub\\2020-jan-coreportfolio-celianux\\AdvancedPortfolio3-Celia\\trivia.txt";
+            string Full_Path_File_Name = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\GitHub\\Shared-Work\\AdvancedPortfolio3-Celia\\trivia.txt";
             string readValue = "";
             StreamReader reader = null;
 

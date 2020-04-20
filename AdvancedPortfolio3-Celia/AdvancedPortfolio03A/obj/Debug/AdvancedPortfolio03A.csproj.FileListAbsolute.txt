@@ -4,3 +4,8 @@
 /Users/celianicholls/Documents/GitHub/2020-jan-coreportfolio-celianux/AdvancedPortfolio3-Celia/AdvancedPortfolio03A/obj/Debug/AdvancedPortfolio03A.csproj.CoreCompileInputs.cache
 /Users/celianicholls/Documents/GitHub/2020-jan-coreportfolio-celianux/AdvancedPortfolio3-Celia/AdvancedPortfolio03A/obj/Debug/AdvancedPortfolio03A.exe
 /Users/celianicholls/Documents/GitHub/2020-jan-coreportfolio-celianux/AdvancedPortfolio3-Celia/AdvancedPortfolio03A/obj/Debug/AdvancedPortfolio03A.pdb
+C:\Users\6800K3.4\Documents\GitHub\Shared-Work\AdvancedPortfolio3-Celia\AdvancedPortfolio03A\bin\Debug\AdvancedPortfolio03A.exe
+C:\Users\6800K3.4\Documents\GitHub\Shared-Work\AdvancedPortfolio3-Celia\AdvancedPortfolio03A\bin\Debug\AdvancedPortfolio03A.pdb
+C:\Users\6800K3.4\Documents\GitHub\Shared-Work\AdvancedPortfolio3-Celia\AdvancedPortfolio03A\obj\Debug\AdvancedPortfolio03A.csprojAssemblyReference.cache
+C:\Users\6800K3.4\Documents\GitHub\Shared-Work\AdvancedPortfolio3-Celia\AdvancedPortfolio03A\obj\Debug\AdvancedPortfolio03A.exe
+C:\Users\6800K3.4\Documents\GitHub\Shared-Work\AdvancedPortfolio3-Celia\AdvancedPortfolio03A\obj\Debug\AdvancedPortfolio03A.pdb
