@@ -1,0 +1,5 @@
+/Users/celianicholls/Documents/GitHub/2020-jan-coreportfolio-celianux/AdvancedPortfolio3-Celia/AdvancedPortfolio03B/bin/Debug/AdvancedPortfolio03B.exe
+/Users/celianicholls/Documents/GitHub/2020-jan-coreportfolio-celianux/AdvancedPortfolio3-Celia/AdvancedPortfolio03B/bin/Debug/AdvancedPortfolio03B.pdb
+/Users/celianicholls/Documents/GitHub/2020-jan-coreportfolio-celianux/AdvancedPortfolio3-Celia/AdvancedPortfolio03B/obj/anycpu/Debug/AdvancedPortfolio03B.csproj.CoreCompileInputs.cache
+/Users/celianicholls/Documents/GitHub/2020-jan-coreportfolio-celianux/AdvancedPortfolio3-Celia/AdvancedPortfolio03B/obj/anycpu/Debug/AdvancedPortfolio03B.exe
+/Users/celianicholls/Documents/GitHub/2020-jan-coreportfolio-celianux/AdvancedPortfolio3-Celia/AdvancedPortfolio03B/obj/anycpu/Debug/AdvancedPortfolio03B.pdb

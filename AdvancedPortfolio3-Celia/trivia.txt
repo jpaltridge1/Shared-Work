@@ -1,0 +1,10 @@
+"The Jazz Singer starring Al Jolson was the first sound film (T or F)","T",1
+"Katharine Hepburn was the first person to receive ten Oscar nominations (T or F)","F",3
+"The African Queen won Humphrey Bogart his only Oscar (T or F)","T",2
+"Berserk! was Joan Crawford's last feature film role (T or F)","F",3
+"Rocky Balboa's dog's name is Butkus (T or F)","T",2
+"In Citizen Kane, Rosebud is a teddy bear (T or F)","F",1
+"Here's looking at you kid is a line from the film The Big Sleep (T or F)","F",1
+"Sean Connery wore a toupee in every James Bond film (T or F)","T",2
+"Fred Astaire made five films with Ginger Rogers(T or F)","F",3
+"Gone With the Wind's fire scene is old sets being burned (T or F)","T",2
