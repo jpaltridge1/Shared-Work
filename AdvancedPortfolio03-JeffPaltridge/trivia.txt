@@ -1,0 +1,10 @@
+"True or False. Does a cat have a tail?",true,1
+"True or False. Is the moon made out of cheese?",false,1
+"True or False. You can you breath water?",false,1
+"True or False. Has Audi ever owned Lamborgini?",true,2
+"True or False. You can score a goal in hockey by throwing the puck in to the net by hand?",false,2
+"Is the Earth round or flat?",round,2
+"Vaccines do not cause this condition. hint: starts with an A",Autism,3
+"True or False. Triskaidekaphobia is the fear of the number 13.",true,3
+"True or False. A Louisiana boy who was born without a brain lived to age 12.",true,3
+"True or False. The soviet spacecraft Venera-1 was first probe launched to another planet.",true,3
