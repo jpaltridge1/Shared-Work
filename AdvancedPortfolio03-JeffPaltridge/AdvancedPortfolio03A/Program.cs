@@ -24,33 +24,14 @@ namespace AdvancedPortfolio03A
             * 
             */
 
-            List<Trivia> triviaQuest = new List<Trivia>();
             List<string> Questions = new List<string>();
             List<string> Answers = new List<string>();
             List<int> Score = new List<int>();
 
-            ReadandLoadList(triviaQuest);
-            Multi_List_Creation(triviaQuest, Questions, Answers, Score);
+            ReadandLoadList(Questions, Answers, Score);
             Play_Game(Questions, Answers, Score);
             Console.WriteLine("Thanks for playing!");
             Console.ReadKey();
-
-        }
-
-        private static void Multi_List_Creation(List<Trivia> triviaQuest, List<string> Questions, List<string> Answers, List<int> Score)
-        /*Purpose: Splits the triviaQuest list in to separate lists
-         * Processes: for loop, lists
-         * Input: triviaQuest List, questions list, answers list, score list
-         * Output: questions list, answer list, score list
-         */        
-        {
-            for (int count1 = 0; count1 < triviaQuest.Count; count1++)
-            {
-                Questions.Add(triviaQuest[count1].Question);
-                Answers.Add(triviaQuest[count1].Answer);
-                Score.Add(triviaQuest[count1].Score);
-            }
-
         }
 
         private static void Play_Game(List<string> Questions,List<string> Answers, List<int> Score)
@@ -126,7 +107,7 @@ namespace AdvancedPortfolio03A
             return pAnswer;
         }
 
-        static void ReadandLoadList(List<Trivia> triviaQuest)
+        static void ReadandLoadList(List<string> Question, List<string> Answer, List<int> Score)
         /* Purpose: to read info from csv file and create a list
          * Processes: File IO, foreach loop, switch, list, try/catch, while loop
          * Input: List triviaQuest of type Trivia, file from same directory as program
@@ -153,24 +134,24 @@ namespace AdvancedPortfolio03A
                         {
                             case 0:
                                 {
-                                    readInFileInfo.Question = item;
+                                    Question.Add(item);
                                     break;
                                 }
                             case 1:
                                 {
-                                    readInFileInfo.Answer = item;
+                                    Answer.Add(item);
                                     break;
                                 }
 
                             default:
                                 {
-                                    readInFileInfo.Score = int.Parse(item);
+                                    Score.Add(int.Parse(item));
                                     break;
                                 }
                         }
                         column++;
                     }
-                    triviaQuest.Add(readInFileInfo);
+                   
                     readValue = reader.ReadLine();
                 }
             }
