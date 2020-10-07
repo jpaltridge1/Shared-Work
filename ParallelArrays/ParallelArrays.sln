@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelArrays", "ParallelArrays\ParallelArrays.csproj", "{AD1645DE-6991-4000-92E1-004CBF3435E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD1645DE-6991-4000-92E1-004CBF3435E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1645DE-6991-4000-92E1-004CBF3435E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1645DE-6991-4000-92E1-004CBF3435E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1645DE-6991-4000-92E1-004CBF3435E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29658F54-8C1D-4F90-B3B8-8C0F407E0529}
+	EndGlobalSection
+EndGlobal
