@@ -1,0 +1,7 @@
+program
+arrays
+strings
+computers
+monitor
+random
+numbers
